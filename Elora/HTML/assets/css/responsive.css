@@ -17,7 +17,7 @@
         top:100%;
         padding: 0rem 2rem;
         background: #F7F5F2;
-        border: 0.1rem solid #BC8CF2;
+        border: 0.1rem solid #04abe3;
         -webkit-transition: 0.2s linear;
         -moz-transition: 0.2s linear;
         -o-transition: 0.2s linear;
@@ -48,7 +48,7 @@
   
     .navbar::-webkit-scrollbar-thumb{
         border-radius: 1rem;
-        background-color: #BC8CF2;
+        background-color: #04abe3;
     }
   
     .navbar::-webkit-scrollbar-track{

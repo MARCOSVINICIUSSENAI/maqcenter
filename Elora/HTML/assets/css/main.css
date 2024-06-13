@@ -23,10 +23,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #BC8CF2;
-    --black: #000000;
-    --amarelo: yellow;
-    --grey: #DFDFDE;
+    --purple: #04abe3;
+    --black:   #ceeff4;
+    --amarelo: #000000;
+    --grey: #000000;
 }
 
 *{
@@ -177,7 +177,7 @@ header{
 
 header.sticky{
     border-bottom: 0.1rem solid var(--grey);
-    background: rgba(0, 0, 0, 0.8);
+    background: #FFFFFF;
 }
 
 header .logo h2{
@@ -413,7 +413,7 @@ header #menu-btn:hover{
     -ms-flex: 1 1 18rem;
         flex: 1 1 18rem;
     text-align: center;
-    background-color: #222;
+    background-color: #FFFFFF;
     padding: 2rem;
 }
 
@@ -466,7 +466,7 @@ header #menu-btn:hover{
 
  .skill-item .box .progress-bar{
     width:100%;
-    background:#222;
+    background:#FFFFFF;
     overflow:hidden;
     height:1rem;
     border-radius: 50rem;
@@ -559,7 +559,7 @@ header #menu-btn:hover{
 }
 
 .experience-item span{
-    background: #222;
+    background: #04abe3;
     color: var(--amarelo);
     padding: 0.5rem 1.5rem;
     font-size: 1.8rem;
