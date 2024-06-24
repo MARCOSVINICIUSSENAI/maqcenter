@@ -3,8 +3,7 @@
 
 
 :root {
-    --darkiest-color: #1e90ff;   
-   
+    --darkiest-color: #1e90ff; 
 }
 
 * {
@@ -92,4 +91,19 @@ footer {
     box-shadow: 2px 0 10px -2px var(--darkiest-color);
     height: 590px;
     overflow: hidden;
+}
+/*--------------------------------------------------------------
+# Butao voltar
+--------------------------------------------------------------*/
+button{
+    background-color: var(--red) !important;
+    border: none !important;
+    color: var(--black) !important;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: var(--black) !important;
+    color: var(--red) !important;
+    border: 1px solid var(--red) !important;
 }
