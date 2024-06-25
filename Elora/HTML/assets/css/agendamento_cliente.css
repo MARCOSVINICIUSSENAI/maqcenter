@@ -68,7 +68,7 @@ section {
 }
 
 .section-title {
-    text-align: center;
+    text-align: center !important;
     /* padding-bottom: 30px; */
 }
 
